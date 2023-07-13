@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Ashion Template">
+  <meta name="keywords" content="Ashion, unica, creative, html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ashion | Template</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&amp;display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+  <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+  <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+  <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+  <link href="serch/css/main.css" rel="stylesheet" />
+  <script
+    nonce="58ac19ed-643d-4dc5-b2eb-9e255a3eb032">(function (w, d) { !function (f, g, h, i) { f[h] = f[h] || {}; f[h].executed = []; f.zaraz = { deferred: [], listeners: [] }; f.zaraz.q = []; f.zaraz._f = function (j) { return function () { var k = Array.prototype.slice.call(arguments); f.zaraz.q.push({ m: j, a: k }) } }; for (const l of ["track", "set", "debug"]) f.zaraz[l] = f.zaraz._f(l); f.zaraz.init = () => { var m = g.getElementsByTagName(i)[0], n = g.createElement(i), o = g.getElementsByTagName("title")[0]; o && (f[h].t = g.getElementsByTagName("title")[0].text); f[h].x = Math.random(); f[h].w = f.screen.width; f[h].h = f.screen.height; f[h].j = f.innerHeight; f[h].e = f.innerWidth; f[h].l = f.location.href; f[h].r = g.referrer; f[h].k = f.screen.colorDepth; f[h].n = g.characterSet; f[h].o = (new Date).getTimezoneOffset(); if (f.dataLayer) for (const s of Object.entries(Object.entries(dataLayer).reduce(((t, u) => ({ ...t[1], ...u[1] })), {}))) zaraz.set(s[0], s[1], { scope: "page" }); f[h].q = []; for (; f.zaraz.q.length;) { const v = f.zaraz.q.shift(); f[h].q.push(v) } n.defer = !0; for (const w of [localStorage, sessionStorage]) Object.keys(w || {}).filter((y => y.startsWith("_zaraz_"))).forEach((x => { try { f[h]["z_" + x.slice(7)] = JSON.parse(w.getItem(x)) } catch { f[h]["z_" + x.slice(7)] = w.getItem(x) } })); n.referrerPolicy = "origin"; n.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(f[h]))); m.parentNode.insertBefore(n, m) };["complete", "interactive"].includes(g.readyState) ? zaraz.init() : f.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script>
+</head>
+
+<body>
+
+  <div id="preloder">
+    <div class="loader"></div>
+  </div>
+
+  <div class="offcanvas-menu-overlay"></div>
+  <div class="offcanvas-menu-wrapper">
+    <div class="offcanvas__close">+</div>
+    <ul class="offcanvas__widget">
+      <li><span class="icon_search search-switch"></span></li>
+      <li><a href="#"><span class="icon_heart_alt"></span>
+          <div class="tip">2</div>
+        </a></li>
+      <li><a href="#"><span class="icon_bag_alt"></span>
+          <div class="tip">2</div>
+        </a></li>
+    </ul>
+    <div class="offcanvas__logo">
+      <a href="index-2.html"><img src="img/logo.png" alt=""></a>
+    </div>
+    <div id="mobile-menu-wrap"></div>
+    <div class="offcanvas__auth">
+      <a href="#">Login</a>
+      <a href="#">Register</a>
+    </div>
+  </div>
+
+
+  <header class="header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-1 col-lg-2">
+          <div class="header__logo">
+            <a href="index-2.html"><img src="img/logo.png" alt=""></a>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6">
+           <nav class="header__menu">
+            <ul>
+              <li><a href="index-2.html">Pricing</a></li>
+              <li><a href="#">Be a Contributor</a></li>
+             
+             
+              <!-- <li><a href="#">Pages</a>
+                <ul class="dropdown">
+                  <li><a href="product-details.html">Product Details</a></li>
+                  <li><a href="shop-cart.html">Shop Cart</a></li>
+                  <li><a href="checkout.html">Checkout</a></li>
+                  <li><a href="blog-details.html">Blog Details</a></li>
+                </ul>
+              </li> -->
+            </ul>
+          </nav> 
+        </div>
+        <div class="col-lg-4">
+          <div class="header__right">
+            <div class="header__right__auth">
+              <select name="" id="" class="site-btn" style="padding: 10px;background: white;color: black;">
+                <option value="">EN</option>
+                <option value="">EN</option>
+                <option value="">EN</option>
+              </select>
+              
+            </div>
+            <ul class="header__right__widget">
+              <button type="submit" class="site-btn">Login</button>
+              <li><a href="#" style="margin-left: 10px;">Browse</a></li>
+              <!-- <li><a href="#"><span class="icon_heart_alt"></span>
+                  <div class="tip">2</div>
+                </a></li> -->
+              <!-- <li><a href="#"><span class="icon_bag_alt"></span>
+                  <div class="tip">2</div>
+                </a></li> -->
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="canvas__open">
+        <i class="fa fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <div class="s003">
+    <form>
+      <div class="inner-form">
+    
+        <div class="input-field second-wrap">
+          <input id="search" type="text" placeholder="Enter Keywords?" />
+        </div>
+        <div class="input-field third-wrap">
+          <button class="btn-search" type="button">
+            <svg class="svg-inline--fa fa-search fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="input-field first-wrap">
+          <div class="input-select">
+            <select data-trigger="" name="choices-single-defaul">
+              <option placeholder="">Category</option>
+              <option>New Arrivals</option>
+              <option>Sale</option>
+              <option>Ladies</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <section class="shop spad">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3">
+          <div class="shop__sidebar">
+            <div class="sidebar__categories">
+              <div class="section-title" style="background: black;height: 50px;">
+                <h3 style="color: white;padding: 7px;">Filters</h3>
+              </div>
+              <div class="section-title">
+                <h4>Categories</h4>
+              </div>
+              <div class="categories__accordion">
+                <div class="accordion" id="accordionExample">
+                  <div class="card">
+                    <div class="card-heading active">
+                      <a data-toggle="collapse" data-target="#collapseOne">Women</a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <ul>
+                          <li><a href="#">Coats</a></li>
+                          <li><a href="#">Jackets</a></li>
+                          <li><a href="#">Dresses</a></li>
+                          <li><a href="#">Shirts</a></li>
+                          <li><a href="#">T-shirts</a></li>
+                          <li><a href="#">Jeans</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-heading">
+                      <a data-toggle="collapse" data-target="#collapseTwo">Shop by size</a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
+                      <div class="sidebar__sizes">
+                      
+                        <div class="size__list" style="margin-top: 10px;">
+                          <label for="xxs">
+                            xxs
+                            <input type="checkbox" id="xxs">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label for="xs">
+                            xs
+                            <input type="checkbox" id="xs">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label for="xss">
+                            xs-s
+                            <input type="checkbox" id="xss">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label for="s">
+                            s
+                            <input type="checkbox" id="s">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label for="m">
+                            m
+                            <input type="checkbox" id="m">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label for="ml">
+                            m-l
+                            <input type="checkbox" id="ml">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label for="l">
+                            l
+                            <input type="checkbox" id="l">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label for="xl">
+                            xl
+                            <input type="checkbox" id="xl">
+                            <span class="checkmark"></span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-heading">
+                      <a data-toggle="collapse" data-target="#collapseThree">Kids</a>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <ul>
+                          <li><a href="#">Coats</a></li>
+                          <li><a href="#">Jackets</a></li>
+                          <li><a href="#">Dresses</a></li>
+                          <li><a href="#">Shirts</a></li>
+                          <li><a href="#">T-shirts</a></li>
+                          <li><a href="#">Jeans</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-heading">
+                      <a data-toggle="collapse" data-target="#collapseFour">Accessories</a>
+                    </div>
+                    <div id="collapseFour" class="collapse" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <ul>
+                          <li><a href="#">Coats</a></li>
+                          <li><a href="#">Jackets</a></li>
+                          <li><a href="#">Dresses</a></li>
+                          <li><a href="#">Shirts</a></li>
+                          <li><a href="#">T-shirts</a></li>
+                          <li><a href="#">Jeans</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-9">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="product__item">
+                <div class="product__item__pic set-bg" data-setbg="">
+                  <img src="images/z2.jpg" alt="" />
+                  <div class="label new">New</div>
+                  <ul class="product__hover">
+                    <li><a href="#"><span class="icon_heart_alt"></span></a></li>
+                    <li><a href="#"><span class="icon_bag_alt"></span></a></li>
+                  </ul>
+                </div>
+                <!-- <div class="product__item__text">
+                  <h6><a href="#">Furry hooded parka</a></h6>
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <div class="product__price">$ 59.0</div>
+                </div> -->
+              </div>
+            </div>            <div class="col-lg-4 col-md-6">
+              <div class="product__item">
+                <div class="product__item__pic set-bg" data-setbg="">
+                  <img src="images/z1.jpg" alt="" />
+                 
+                  <ul class="product__hover">
+                    <li><a href="#"><span class="icon_heart_alt"></span></a></li>
+                    <li><a href="#"><span class="icon_bag_alt"></span></a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>            <div class="col-lg-4 col-md-6">
+              <div class="product__item">
+                <div class="product__item__pic set-bg" data-setbg="">
+                  <img src="images/z2.jpg" alt="" />
+                  <div class="label new">New</div>
+                  <ul class="product__hover">
+                    <li><a href="#"><span class="icon_heart_alt"></span></a></li>
+                    <li><a href="#"><span class="icon_bag_alt"></span></a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>            <div class="col-lg-4 col-md-6">
+              <div class="product__item">
+                <div class="product__item__pic set-bg" data-setbg="">
+                  <img src="images/z1.jpg" alt="" />
+                  <div class="label new">New</div>
+                  <ul class="product__hover">
+                    <li><a href="#"><span class="icon_heart_alt"></span></a></li>
+                    <li><a href="#"><span class="icon_bag_alt"></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>           
+             <div class="col-lg-4 col-md-6">
+              <div class="product__item">
+                <div class="product__item__pic set-bg" data-setbg="">
+                  <img src="images/z2.jpg" alt="" />
+                
+                  <ul class="product__hover">
+                    <li><a href="#"><span class="icon_heart_alt"></span></a></li>
+                    <li><a href="#"><span class="icon_bag_alt"></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>            
+            <div class="col-lg-4 col-md-6">
+              <div class="product__item">
+                <div class="product__item__pic set-bg" data-setbg="">
+                  <img src="images/z1.jpg" alt="" />
+                  <div class="label new">New</div>
+                  <ul class="product__hover">
+                    <li><a href="#"><span class="icon_heart_alt"></span></a></li>
+                    <li><a href="#"><span class="icon_bag_alt"></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>            
+            <div class="col-lg-4 col-md-6">
+              <div class="product__item">
+                <div class="product__item__pic set-bg" data-setbg="">
+                  <img src="images/z2.jpg" alt="" />
+                
+                  <ul class="product__hover">
+                    <li><a href="#"><span class="icon_heart_alt"></span></a></li>
+                    <li><a href="#"><span class="icon_bag_alt"></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-12 text-center">
+              <div class="pagination__option">
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-7">
+          <div class="footer__about">
+            <div class="footer__logo">
+              <a href="index-2.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              cilisis.</p>
+            <div class="footer__payment">
+              <a href="#"><img src="img/payment/payment-1.png" alt=""></a>
+              <a href="#"><img src="img/payment/payment-2.png" alt=""></a>
+              <a href="#"><img src="img/payment/payment-3.png" alt=""></a>
+              <a href="#"><img src="img/payment/payment-4.png" alt=""></a>
+              <a href="#"><img src="img/payment/payment-5.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-5">
+          <div class="footer__widget">
+            <h6>Quick links</h6>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4">
+          <div class="footer__widget">
+            <h6>Account</h6>
+            <ul>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Orders Tracking</a></li>
+              <li><a href="#">Checkout</a></li>
+              <li><a href="#">Wishlist</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-8 col-sm-8">
+          <div class="footer__newslatter">
+            <h6>NEWSLETTER</h6>
+            <form action="#">
+              <input type="text" placeholder="Email">
+              <button type="submit" class="site-btn">Subscribe</button>
+            </form>
+            <div class="footer__social">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-youtube-play"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="footer__copyright__text">
+            <p>Copyright &copy;
+              <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
+              with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com/"
+                target="_blank">Colorlib</a>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <div class="search-model">
+    <div class="h-100 d-flex align-items-center justify-content-center">
+      <div class="search-close-switch">+</div>
+      <form class="search-model-form">
+        <input type="text" id="search-input" placeholder="Search here.....">
+      </form>
+    </div>
+  </div>
+
+  <script src="serch/js/extention/choices.js"></script>
+  <script>
+    const choices = new Choices('[data-trigger]',
+    {
+      searchEnabled: false,
+      itemSelectText: '',
+    });
+
+  </script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.slicknav.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+  </script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816"
+    integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw=="
+    data-cf-beacon='{"rayId":"7e298819f8473f83","version":"2023.4.0","b":1,"token":"cd0b4b3a733644fc843ef0b185f98241","si":100}'
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
