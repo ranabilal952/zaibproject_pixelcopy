@@ -27,6 +27,13 @@ nav,
 section {
   display: block;
 }
+.footer__widget{
+  color: white!important;
+}
+
+header{
+  overflow: hidden!important;
+}
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -946,7 +953,7 @@ legend {
 
 .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item--selectable.is-highlighted {
   background: #fff;
-  color: #63c76a;
+  color: rgba(153, 12, 143, 1);
 }
 
 .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item {
@@ -970,7 +977,7 @@ legend {
   color: #fff;
   border: 0;
   cursor: pointer;
-  background: #63c76a;
+  background: rgba(153, 12, 143, 0.7);
   transition: all .2s ease-out, color .2s ease-out;
 }
 
@@ -979,7 +986,7 @@ legend {
 }
 
 .s003 form .inner-form .input-field.third-wrap .btn-search:hover {
-  background: #50c058;
+  background: rgba(153, 12, 143, 1);
 }
 
 .s003 form .inner-form .input-field.third-wrap .btn-search:focus {

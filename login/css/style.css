@@ -39,20 +39,29 @@ a {
 
 .wrapper {
   min-height: 100vh;
-  display: flex; }
+  display: flex; 
+}
   .wrapper .image-holder {
-    width: 50%; }
+    width: 50%; 
+  }
   .wrapper .form-inner {
     width: 50%; }
 
 .image-holder {
-background: black;
-  background-size: cover; }
+  text-align: center;
+  background: radial-gradient(circle,rgba(153, 12, 143, 0.7) 10%,#000000 100%);
+  background-size: cover; 
+}
   .image-holder img {
-    display: none; }
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
 
 .form-inner {
-  background: radial-gradient(circle,hsla(28,93%,78%,.36) 10%,#d9fcf6 100%);
+  background: #fff;
   padding-top: 16.36vh;
   padding-left: 8vw;
   padding-right: 4vw; }
