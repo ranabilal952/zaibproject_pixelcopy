@@ -157,14 +157,17 @@ ol {
 
 .site-btn {
 	font-size: 14px;
-	color: #ffffff;
-	background: #ca1515;
+	color: black;
+	background: radial-gradient(circle,hsla(28,93%,78%,.36) 10%,#d9fcf6 100%);
 	font-weight: 600;
 	border: none;
 	text-transform: uppercase;
 	display: inline-block;
 	padding: 12px 30px;
 	border-radius: 50px;
+}
+.site-btn:hover {
+	background: #ff671b;
 }
 
 /* Preloder */
@@ -375,7 +378,7 @@ ol {
 
 .header__right {
 	text-align: right;
-	padding: 30px 0 27px;
+	padding: 25px 0 20px;
 }
 
 .header__right__auth {
@@ -1064,17 +1067,23 @@ ol {
 }
 
 .filter__controls li {
-	font-size: 14px;
+	font-size: 20px;
+	font-weight: bold;
 	list-style: none;
 	display: inline-block;
-	color: #111111;
+	color: #1111118f;
 	margin-right: 35px;
 	position: relative;
 	cursor: pointer;
 }
+.filter__controls li:hover{
+	color: #ca1515;
+}
+
 
 .filter__controls li.active:after {
 	opacity: 1;
+	color: #000;
 }
 
 .filter__controls li:after {
@@ -1084,6 +1093,7 @@ ol {
 	height: 2px;
 	width: 100%;
 	background: #ca1515;
+	color: #000;
 	content: "";
 	opacity: 0;
 }
@@ -3566,7 +3576,7 @@ ol {
 
 nav#slide-menu {
 	position: fixed;
-	top: 10%;
+	top:11%;
 	left: -100px;
 	bottom: 0;
 	display: block;
@@ -3590,7 +3600,7 @@ li.logout:before { content: '\e804'; }
 
 div#content {
 	position: fixed;
-	top: 10%;
+	top: 11%;
 	left: 0;
 	width: 100%;
 	height: 100%;
