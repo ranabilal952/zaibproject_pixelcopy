@@ -848,7 +848,8 @@ legend {
   -ms-flex-align: center;
       align-items: center;
   box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-  border-radius: 3px;
+  border-radius: 100px;
+  border: 3px solid rgba(153, 12, 143, 0.7);
 }
 
 .s003 form .inner-form .input-field {

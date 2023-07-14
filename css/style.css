@@ -382,7 +382,7 @@ ol {
 
 .header__right {
 	text-align: right;
-	padding: 25px 0 20px;
+	padding: 18px 0 20px;
 }
 
 .header__right__auth {
@@ -3225,7 +3225,7 @@ ol {
 
 nav#slide-menu {
 	position: fixed;
-	top:10%;
+	top:11%;
 	left: -100px;
 	bottom: 0;
 	display: block;
@@ -3724,4 +3724,27 @@ body.menu-active div#content .menu-trigger { left: 294px; }
 		.contact__content {
 			margin-bottom: 40px;
 		}
+	}
+
+	#newone{
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: block;
+	transition: top 0.3s;
+  
+	}
+	.container-fluid {
+		-ms-overflow-style: none;  /* Internet Explorer 10+ */
+		scrollbar-width: none;  /* Firefox */
+	}
+	.container-fluid::-webkit-scrollbar { 
+		display: none ;  /* Safari and Chrome */
+	}
+
+	.tagsss{
+		width: 138px;
+		padding: 10px;
+		margin: 10px 5px; border: 3px solid rgba(153, 12, 143, 0.7);border-radius: 38px;
 	}
