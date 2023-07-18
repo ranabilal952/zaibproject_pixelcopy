@@ -3790,3 +3790,28 @@ body.menu-active div#content .menu-trigger { left: 294px; }
 	border: 5px solid rgba(153, 12, 143, 1);;
 	padding: 18px 18px;
 }
+.view{
+	position: relative;
+    top: -3px;
+    left: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #666666;
+}
+.site-btn2{
+	font-size: 14px;
+    color: white;
+    background: #EA3F23;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 50px;
+    width: 100%;
+    padding: 14px;
+}
+.down{
+	border: 1px solid #e0e0e0;
+    padding: 18px;
+    background: #fff;
+}
